@@ -11,7 +11,7 @@ const Contact =() => {
                     Please be free to connect with the blog team and tell us whats on your mind.
                 </p>
             </div>
-            <form className="animate__animated animate__bounceInUp animate__delay-1s lg:w-1/2 md:w-2/3 mx-auto" action="https://formsubmit.co/admin@vukanig.co.za" method="POST">
+            <form className="animate__animated animate__bounceInUp animate__delay-1s lg:w-1/2 md:w-2/3 mx-auto" action="https://formsubmit.co/c74fe90c9f15cbd699dd22a990f26d50 " method="POST">
                 <div className="flex flex-wrap -m-2">
                     <div className="p-2 w-1/2">
                         <div className="relative">
