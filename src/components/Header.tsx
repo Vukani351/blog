@@ -5,8 +5,8 @@ import tw from "tailwind-styled-components";
 import "../App.scss";
 
 export default function Header() {
-  const Nav = tw.nav`flex justify-between text-base`;
-  const Container = tw.header`invisible absolute top-2 left-5 text-gray-600 body-font links md:visible`;
+  const Nav = tw.nav`flex justify-between text-base `;
+  const Container = tw.header`invisible absolute top-0 left-5 text-gray-600 body-font links md:visible`;
   const GridItem = tw.div`animate__animated animate__bounceInUpInUp animate__delay-1s`
 
   return (
@@ -19,6 +19,11 @@ export default function Header() {
               </Link>
             </GridItem>
             <GridItem>
+              <Link to="about">
+                <Button variant="outlined">about</Button>
+              </Link>
+            </GridItem>
+            <GridItem>
               <Link to="articles">
                 <Button variant="outlined">articles</Button>
               </Link>
@@ -27,11 +32,6 @@ export default function Header() {
               <Button variant="outlined">
                 <Link to="contact"> contact</Link>
               </Button>
-            </GridItem>
-            <GridItem>
-              <Link to="about">
-                <Button variant="outlined">about</Button>
-              </Link>
             </GridItem>
           </Grid>
           <span className="animate__animated animate__fadeInTopRight">

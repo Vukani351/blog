@@ -20,16 +20,16 @@ function Home() {
           />
           <div className="animate__animated animate__zoomInRight animate__delay-1s lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <h2 className="text-sm title-font text-gray-500 tracking-widest">
-              BRAND NAME
+              RIGHT ALIGN
             </h2>
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
-              The Catcher in the Rye
+              Here's to learning so we share knowledge.
             </h1>
             <div className="flex mb-4">
               <span className="flex items-center">
                 <svg
-                  fill="currentColor"
-                  stroke="currentColor"
+                  fill="gold"
+                  stroke="gold"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
@@ -39,8 +39,8 @@ function Home() {
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
                 </svg>
                 <svg
-                  fill="currentColor"
-                  stroke="currentColor"
+                  fill="gold"
+                  stroke="gold"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
@@ -50,8 +50,8 @@ function Home() {
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
                 </svg>
                 <svg
-                  fill="currentColor"
-                  stroke="currentColor"
+                  fill="gold"
+                  stroke="gold"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
@@ -61,8 +61,8 @@ function Home() {
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
                 </svg>
                 <svg
-                  fill="currentColor"
-                  stroke="currentColor"
+                  fill="gold"
+                  stroke="gold"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
@@ -73,7 +73,7 @@ function Home() {
                 </svg>
                 <svg
                   fill="none"
-                  stroke="currentColor"
+                  stroke="gold"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
@@ -124,25 +124,18 @@ function Home() {
               </span>
             </div>
             <p className="leading-relaxed">
-              Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-              sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
-              juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
-              seitan poutine tumeric. Gastropub blue bottle austin listicle
-              pour-over, neutra jean shorts keytar banjo tattooed umami
-              cardigan.
+              We all want to know, its the learning new skills thats an issue 
+              for most people, with our blog we sharing skills, tips and ideas 
+              that could help with your learning experience. 
+
+              To make this fun, we definately will keep the sharing related
+              to software developer topics, self-improvements of junior developers
+              & rooting the important fundamentals as a great person so we have a 
+              mentaly & personaly healthy forthe field.
             </p>
-            <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
-              <div className="flex">
-                <span className="mr-3">Color</span>
-                <button className="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
-                <button className="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                <button className="border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none"></button>
-              </div>
-            </div>
-            <div className="flex">
-              <span className="title-font font-medium text-2xl text-gray-900">
-                $58.00
-              </span>
+            
+            <div className="flex mt-5">
+              
               <Link
                 to="articles"
                 className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
@@ -161,6 +154,8 @@ function Home() {
                 </svg>
               </button>
             </div>
+             add code video here
+             
           </div>
         </div>
       </div>

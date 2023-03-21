@@ -4,12 +4,14 @@ import tw from "tailwind-styled-components";
 const Contact =() => {
     return (
     <div className="text-gray-600 body-font relative">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-14 mx-auto">
             <div className="animate__animated animate__bounceInUp flex flex-col text-center w-full mb-12">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    Please be free to connect with the blog team and tell us whats on your mind.
+                </p>
             </div>
-            <div className="animate__animated animate__bounceInUp animate__delay-1s lg:w-1/2 md:w-2/3 mx-auto">
+            <form className="animate__animated animate__bounceInUp animate__delay-1s lg:w-1/2 md:w-2/3 mx-auto" action="https://formsubmit.co/admin@vukanig.co.za" method="POST">
                 <div className="flex flex-wrap -m-2">
                     <div className="p-2 w-1/2">
                         <div className="relative">
@@ -30,7 +32,7 @@ const Contact =() => {
                         </div>
                     </div>
                     <div className="p-2 w-full">
-                    <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+                    <button type='submit' className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">submit</button>
                     </div>
                     <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                     <a className="text-indigo-500">example@email.com</a>
@@ -62,7 +64,8 @@ const Contact =() => {
                     </span>
                     </div>
                 </div>
-            </div>
+                <input type="hidden" name="_captcha" value="false" />
+            </form>
         </div>
     </div>
     )
