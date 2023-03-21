@@ -9,6 +9,7 @@ import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Fade from "@mui/material/Fade";
+import Footer from "./components/Footer";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <Header />
       <FadeMenu />
       <App />
+      <Footer />
     </div>
   </BrowserRouter>,
   document.getElementById("root")

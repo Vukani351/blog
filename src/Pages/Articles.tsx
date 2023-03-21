@@ -8,7 +8,7 @@ import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import DirectionsIcon from '@mui/icons-material/Directions';
-import { Link } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const ArticlesContainer = tw.div`container px-5 py-24 mx-auto animate__animated animate__bounceInUp`;
 const IntroContainer = tw.div`flex flex-wrap w-full mb-20 md:justify-between`;
@@ -34,7 +34,7 @@ const Articles = () => {
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
               <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-              <Link href='#'>Article Link</Link>
+              <Link to='#'>Article Link</Link>
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
@@ -43,7 +43,7 @@ const Articles = () => {
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
               <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-              <Link href='#'>Article Link</Link>
+              <Link to='#'>Article Link</Link>
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
@@ -52,7 +52,7 @@ const Articles = () => {
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
               <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-              <Link href='#'>Article Link</Link>
+              <Link to='#'>Article Link</Link>
             </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4">
@@ -61,7 +61,7 @@ const Articles = () => {
               <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
               <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-              <Link href='#'>Article Link</Link>
+              <Link to='#'>Article Link</Link>
             </div>
           </div>
         </ArticlesBody>
